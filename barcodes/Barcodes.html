@@ -1,0 +1,42 @@
+<html>
+<title>EASIH - Library Prep Barcodes</title>
+<body>
+
+<!-- <center><a href="http://www.easih.ac.uk/index.php"><img src="easih.gif" alt="EASIH" /></a></center> -->
+<!-- <h1>Library Prep Barcodes</h1> -->
+
+<br /> 
+<img src="lpb2.gif" />
+<br /> 
+
+<form action="lib_prep_barcodes.cgi" method="post">
+
+<h3>
+Project: <input type="text" name="project" size="3" maxlength="3"/>
+Count  : <input type="text" name="count" value="10" size="3" maxlength="2"/>
+Start  : <input type="text" name="start" value="1" size="3" maxlength="2"/>
+</h3>
+
+<br /> <br /> 
+<input type="submit" />
+<input type="reset" />
+<br /> <br />
+<!-- <img src="LibraryPrepBarcodes.gif" alt="Library Prep Barcodes" title="Library Prep Barcodes"/> -->
+
+<hr>
+<h4>Format:</h4> 
+<font size="2" face="arial" color="red">
+<ul>
+  <li>Project: [A-Z] followed by 2 digits, <i> e.g.,</i> A32</li> 
+  <li>Count: Number of samples for this project</li>
+  <li>Start: Sample number at which you want the barcode printing to start</li>
+</ul>
+</font>
+<hr>
+
+</form>
+
+<center><a href="http://www.easih.ac.uk"><img src="easihbarcode.png" alt="EASIH" title="http://www.easih.ac.uk"/></a></center>
+
+</body>
+</html> 
